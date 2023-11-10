@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&display=swap");
+
+:root {
+    --font: "League Spartan", Arial, sans-serif;
+}
+.commentCount {
+    font-size: 22px;
+    font-family: var(--font);
+}
+.mainContentComment {
+    padding: 25px 10px;
+    margin: 20px 0;
+    background-color: #f6f8f7;
+    border-bottom: 1px solid #dddddd;
+    font-family: var(--font);
+}
+.username {
+    margin-bottom: -20px;
+}
+.commentDate {
+    font-family: var(--font);
+}
+.commentText {
+    line-height: 20px;
+}
+.commentDate {
+    margin-top: -10px;
+    float: right;
+    font-style: italic;
+}
+
+.formComment label {
+    font-family: var(--font);
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.formComment button {
+    height: 40px;
+    width: 120px;
+    background-color: #3d42f5;
+    border: none;
+    color: #ffffff;
+    font-family: var(--font);
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
