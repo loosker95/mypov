@@ -1,0 +1,26 @@
+{
+    "name": "fabienlk/mypov",
+    "description": "package for adding comments module into your laravel application",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "fabienlk\\mypov\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fabien Louce Kerdely",
+            "email": "loosker95@gmail.com"
+        }
+    ],
+        "extra": {
+        "laravel": {
+            "providers": [
+                "fabienlk\\mypov\\Providers\\MyPovServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
+

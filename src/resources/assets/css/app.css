@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&display=swap");
+
+:root {
+    --font: "League Spartan", Arial, sans-serif;
+}
+.commentCount,
+.content,
+.bottom span {
+    font-family: var(--font);
+}
+
+.commentCount {
+    font-size: 22px;
+    padding-top: 30px;
+}
+.content {
+    padding: 20px 15px;
+    margin: 20px 0;
+    background-color: #f6f8f7;
+    border-bottom: 1px solid #dddddd;
+}
+.details {
+    margin-bottom: 10px;
+}
+.bottom span {
+    margin-top: 10px;
+    margin: 0 15px 0 0;
+}
+
+.alertErrors,
+.alertSuccess {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.alertErrors {
+    color: #842029;
+    background-color: #f8d7da;
+    border: 1px solid #f5c2c7;
+}
+.alertSuccess {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border: 1px solid #badbcc;
+}
+#comment {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.formReply textarea {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #dddddd;
+}
+
+.username {
+    font-weight: bold;
+    color: #00babf;
+    font-weight: bold;
+}
+.bottom span {
+    cursor: pointer;
+}
+.bottom img {
+    display: inline-block;
+    margin: 0 3px 0 0;
+    width: 20px;
+}
+
+.commentDate {
+    font-family: var(--font);
+    font-weight: bold;
+}
+.commentText {
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.commentDate {
+    margin-top: -10px;
+    float: right;
+    font-style: italic;
+    color: #a3abb7;
+}
+
+.formComment label {
+    font-family: var(--font);
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.formComment button,
+.formReply button {
+    height: 40px;
+    width: 120px;
+    background-color: #3d42f5;
+    border: none;
+    color: #ffffff;
+    font-family: var(--font);
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
